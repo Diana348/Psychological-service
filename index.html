@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Главная</title>
+		<link rel="shortcut icon" href="./assets/icons/logo-white.svg" />
+		<link rel="stylesheet" href="./assets/css/normalize.css" />
+		<link rel="stylesheet" href="./assets/css/fonts.css" />
+		<link rel="stylesheet" href="./assets/css/index.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__wrapper">
+					<a href="./index.html" target="_blank" class="header__logo"><img src="./assets/icons/logo.svg" class="header__logo-img" alt="YouMi's logo" /></a>
+					<nav class="header__nav">
+						<ul class="header__menu">
+							<li><a href="./pages/about.html" target="_blank" class="header__link">О нас</a></li>
+							<li><a href="./pages/rates.html" target="_blank" class="header__link">Тарифы</a></li>
+							<li><a href="./pages/psychologists.html" target="_blank" class="header__link">Психологам</a></li>
+							<li><a href="./pages/contacts.html" target="_blank" class="header__link">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="hamburger">
+						<img src="./assets/icons/hamburger-menu1.svg" class="hamburger__line" alt="hamburger menu line" />
+						<img src="./assets/icons/hamburger-menu2.svg" class="hamburger__line" alt="hamburger menu line" />
+						<img src="./assets/icons/hamburger-menu3.svg" class="hamburger__line" alt="hamburger menu line" />
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="home-find">
+			<div class="container">
+				<div class="home-find__wrapper">
+					<div class="home-find__content">
+						<h1 class="home-find__title">Вместе мы справимся</h1>
+						<p class="home-find__subtitle">Найдите своего психолога онлайн</p>
+						<form action="./pages/rates.html" target="_blank">
+							<button class="button">Найти психолога</button>
+						</form>
+						<p class="home-find__descr">2770 руб. за 50 минут сессии</p>
+					</div>
+					<div><img src="./assets/icons/home-find-img.svg" alt="image on section with search" class="home-find__img" /></div>
+				</div>
+				<img src="./assets/icons/home-find-message.svg" alt="message icon on section with search" class="home-find__icon-message" />
+			</div>
+		</section>
+		<section class="home-comfort">
+			<div class="container">
+				<h2 class="title">Онлайн-психотерапия становится комфортнее</h2>
+				<div class="home-comfort__wrapper">
+					<div class="home-comfort__item">
+						<img src="./assets/icons/planet.svg" alt="planet icon on homepage section" class="home-comfort__item-img" />
+						<div class="home-comfort__item-title">Свобода возможностей</div>
+						<p class="home-comfort__item-descr">Проходите сессию из любой точки мира, не тратьте время на дорогу</p>
+					</div>
+					<div class="home-comfort__item">
+						<img src="./assets/icons/home-comfort-check-mark.svg" alt="check mark icon on homepage section" class="home-comfort__item-img" />
+						<div class="home-comfort__item-title">Будьте уверены в своем выборе</div>
+						<p class="home-comfort__item-descr">Мы работаем только с квалифицированными специалистами, которые прошли строгий отбор</p>
+					</div>
+					<div class="home-comfort__item">
+						<img src="./assets/icons/target.svg" alt="target icon on homepage section" class="home-comfort__item-img" />
+						<div class="home-comfort__item-title">Ваш запрос важен</div>
+						<p class="home-comfort__item-descr">Подберем опытного специалиста под ваш запрос</p>
+					</div>
+				</div>
+				<div class="carousel">
+					<div class="carousel__dot_comfort carousel__dot_active"></div>
+					<div class="carousel__dot_comfort"></div>
+					<div class="carousel__dot_comfort"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="home-problems">
+			<div class="container">
+				<p class="home-problems__subtitle">Вместе мы справимся</p>
+				<h2 class="title">В YouMi вы не одни</h2>
+				<p class="home-problems__descr">
+					Профессиональные психологи помогут разобрать вопросы, которые вы не можете решить в одиночку.
+					<img src="./assets/icons/arrow.svg" alt="arrow" class="home-problems__icon-arrow" />
+				</p>
+				<div class="home-problems__wrapper">
+					<div class="home-problems__wrapper-top">
+						<div class="home-problems__item">Депрессия</div>
+						<div class="home-problems__item">Безразличие</div>
+						<div class="home-problems__item">Чувство тревоги</div>
+						<div class="home-problems__item">Хроническая усталость</div>
+					</div>
+					<div class="home-problems__wrapper-bottom">
+						<div class="home-problems__item">Неврозы</div>
+						<div class="home-problems__item">Самооценка</div>
+						<div class="home-problems__item">Апатия</div>
+						<div class="home-problems__item">Стрессы</div>
+						<div class="home-problems__item">Неуверенность в себе</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="home-quality">
+			<div class="container">
+				<p class="home-quality__subtitle">Мы работаем только с</p>
+				<h2 class="title title_left home-quality__title">
+					квалифицированными специалистами, которые прошли наш
+					<span class="title title_left home-quality__title home-quality__title_underlined"
+						>строгий отбор
+						<img src="./assets/icons/line.svg" alt="underline" class="home-quality__icon-line" />
+					</span>
+				</h2>
+
+				<p class="home-quality__descr">Помимо серии собеседований и испытаний по разработанной нами методологии, психологи предоставляют необходимые документы:</p>
+				<div class="home-quality__wrapper">
+					<div class="home-quality__item home-quality__education">
+						<div><img src="./assets/icons/book.svg" alt="book" class="home-quality__item-img" /></div>
+						<div class="home-quality__item-text home-quality__item-text_education">
+							<p class="home-quality__item-title">Образование</p>
+							<p class="home-quality__item-descr">Диплом о высшем психологическом образовании и дополнительные сертификаты</p>
+						</div>
+					</div>
+					<div class="home-quality__item home-quality__work-experience">
+						<p class="home-quality__item-title">Опыт работы</p>
+						<p class="home-quality__item-descr home-quality__item-descr_experience">Подтвержденный опыт работы не менее 3-х лет</p>
+					</div>
+					<div class="home-quality__item home-quality__learning">
+						<p class="home-quality__item-title">Обучение</p>
+						<p class="home-quality__item-descr home-quality__item-descr_education">Прохождение супервизии от 20 часов в год</p>
+					</div>
+					<div class="home-quality__item home-quality__therapy">
+						<div><img src="./assets/icons/watch.svg" alt="watch" class="home-quality__item-img" /></div>
+						<div class="home-quality__item-text home-quality__item-text_therapy">
+							<p class="home-quality__item-title">Личная терапия</p>
+							<p class="home-quality__item-descr home-quality__item-descr_therapy">Прохождение личной терапии от 50 часов в год</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel">
+					<div class="carousel__dot_quality carousel__dot_active"></div>
+					<div class="carousel__dot_quality"></div>
+					<div class="carousel__dot_quality"></div>
+					<div class="carousel__dot_quality"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="home-steps">
+			<div class="container">
+				<h2 class="title">Сделайте 4 шага навстречу психотерапии</h2>
+				<div class="home-steps__wrapper">
+					<div class="home-steps__item">
+						<div class="home-steps__item-content">
+							<div class="home-steps__item-img"><img src="./assets/icons/1.svg" alt="first step" /></div>
+							<div class="home-steps__item-text">
+								<div class="home-steps__item-title">Заполните анкету,</div>
+								<div class="home-steps__item-descr">ответив на 5 простых вопросов, определив тему и пожелания по психологу.</div>
+							</div>
+							<img src="./assets/icons/spot.svg" alt="spot" class="home-steps__item-spot" />
+						</div>
+						<div class="home-steps__picture home-steps__picture-worries">
+							<p class="home-steps__picture-title">Что вас беспокоит?</p>
+							<div class="home-steps__picture-content">
+								<div class="home-steps__picture-block home-steps__picture-block_200px"></div>
+								<div class="home-steps__picture-block home-steps__picture-block_170px home-steps__picture-block_blue"></div>
+								<div class="home-steps__picture-block home-steps__picture-block_90px home-steps__picture-block_blue"></div>
+								<div class="home-steps__picture-block home-steps__picture-block_210px"></div>
+								<div class="home-steps__picture-block home-steps__picture-block_120px home-steps__picture-block_blue"></div>
+								<div class="home-steps__picture-block home-steps__picture-block_90px"></div>
+								<div class="home-steps__picture-block home-steps__picture-block_150px"></div>
+							</div>
+						</div>
+					</div>
+					<div class="home-steps__item">
+						<div class="home-steps__picture home-steps__picture-specialist">
+							<div class="home-steps__picture-profile">
+								<img src="./assets/icons/home-steps-woman1.svg" alt="specialists icon" />
+								<p class="home-steps__picture-name">Валерия Точук</p>
+								<div class="home-steps__picture-block home-steps__picture-block_blue home-steps__picture-block_blue-small"></div>
+							</div>
+							<div class="home-steps__picture-profile">
+								<img src="./assets/icons/home-steps-woman2.svg" alt="specialists icon" />
+								<p class="home-steps__picture-name">Анна Шмид</p>
+								<div class="home-steps__picture-block home-steps__picture-block_blue home-steps__picture-block_blue-small"></div>
+							</div>
+							<div class="home-steps__picture-profile">
+								<img src="./assets/icons/home-steps-woman3.svg" alt="specialists icon" />
+								<p class="home-steps__picture-name">Инна Межина</p>
+								<div class="home-steps__picture-block home-steps__picture-block_blue home-steps__picture-block_blue-small"></div>
+							</div>
+						</div>
+						<div class="home-steps__item-content">
+							<div class="home-steps__item-img"><img src="./assets/icons/2.svg" alt="second step" /></div>
+							<div class="home-steps__item-text">
+								<div class="home-steps__item-title">Ознакомьтесь с профилями</div>
+								<div class="home-steps__item-descr">специалистов и посмотрите видео-визитки. Выберите психолога, с которым вам будет комфортно.</div>
+							</div>
+							<img src="./assets/icons/spot.svg" alt="spot" class="home-steps__item-spot" />
+						</div>
+					</div>
+					<div class="home-steps__item">
+						<div class="home-steps__item-content">
+							<div class="home-steps__item-img"><img src="./assets/icons/3.svg" alt="third step" /></div>
+							<div class="home-steps__item-text">
+								<div class="home-steps__item-title">Определите дату и время</div>
+								<div class="home-steps__item-descr">первой сессии. Если у вас поменяются планы, вы сможете ее отменить или перенести.</div>
+							</div>
+							<img src="./assets/icons/spot.svg" alt="spot" class="home-steps__item-spot" />
+						</div>
+						<div class="home-steps__picture home-steps__picture-session">
+							<div class="home-steps__picture-info">
+								<img src="./assets/icons/home-steps-woman3.svg" alt="specialists icon" class="home-steps__picture-img" />
+								<p class="home-steps__picture-name home-steps__picture-name_session">Инна Межина</p>
+								<div class="home-steps__picture-block home-steps__picture-block_blue home-steps__picture-block_blue-small home-steps__picture-block_top"></div>
+								<div class="home-steps__picture-block home-steps__picture-block_blue home-steps__picture-block_blue-small home-steps__picture-block_bottom"></div>
+							</div>
+							<div class="home-steps__picture-schedule">
+								<div class="home-steps__schedule-window"></div>
+								<div class="home-steps__schedule-window home-steps__schedule-window_red"></div>
+								<div class="home-steps__schedule-window"></div>
+								<div class="home-steps__schedule-window"></div>
+								<div class="home-steps__schedule-window home-steps__schedule-window_red"></div>
+								<div class="home-steps__schedule-window"></div>
+								<div class="home-steps__schedule-window"></div>
+								<div class="home-steps__schedule-window"></div>
+								<div class="home-steps__schedule-window home-steps__schedule-window_red"></div>
+								<div class="home-steps__schedule-window"></div>
+								<div class="home-steps__schedule-window"></div>
+								<div class="home-steps__schedule-window home-steps__schedule-window_red"></div>
+								<div class="home-steps__schedule-window home-steps__schedule-window_red"></div>
+								<div class="home-steps__schedule-window"></div>
+								<div class="home-steps__schedule-window home-steps__schedule-window_red"></div>
+								<div class="home-steps__schedule-window"></div>
+								<div class="home-steps__schedule-window"></div>
+								<div class="home-steps__schedule-window"></div>
+							</div>
+						</div>
+					</div>
+					<div class="home-steps__item">
+						<div class="home-steps__picture home-steps__picture-test">
+							<p class="home-steps__picture-title">Выберите наиболее интересующие темы</p>
+							<div class="home-steps__test-wrapper">
+								<div class="home-steps__test-column">
+									<div class="home-steps__test-item">
+										<div class="home-steps__test-point home-steps__test-point_purple"></div>
+										<div class="home-steps__picture-block home-steps__picture-block_blue home-steps__picture-block_blue-small"></div>
+									</div>
+									<div class="home-steps__test-item">
+										<div class="home-steps__test-point"></div>
+										<div class="home-steps__picture-block home-steps__picture-block_blue home-steps__picture-block_blue-small"></div>
+									</div>
+									<div class="home-steps__test-item">
+										<div class="home-steps__test-point home-steps__test-point_purple"></div>
+										<div class="home-steps__picture-block home-steps__picture-block_blue home-steps__picture-block_blue-small"></div>
+									</div>
+								</div>
+								<div class="home-steps__test-column">
+									<div class="home-steps__test-item">
+										<div class="home-steps__test-point home-steps__test-point_purple"></div>
+										<div class="home-steps__picture-block home-steps__picture-block_blue home-steps__picture-block_blue-small"></div>
+									</div>
+									<div class="home-steps__test-item">
+										<div class="home-steps__test-point"></div>
+										<div class="home-steps__picture-block home-steps__picture-block_blue home-steps__picture-block_blue-small"></div>
+									</div>
+									<div class="home-steps__test-item">
+										<div class="home-steps__test-point"></div>
+										<div class="home-steps__picture-block home-steps__picture-block_blue home-steps__picture-block_blue-small"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="home-steps__item-content">
+							<div class="home-steps__item-img"><img src="./assets/icons/4.svg" alt="fourth step" /></div>
+							<div class="home-steps__item-text">
+								<div class="home-steps__item-title">Пройдите тестирование</div>
+								<div class="home-steps__item-descr">в личном кабинете для того, чтобы сделать первую сессию более продуктивной.</div>
+							</div>
+							<img src="./assets/icons/spot.svg" alt="spot" class="home-steps__item-spot" />
+						</div>
+					</div>
+					<div class="home-steps__item">
+						<div class="home-steps__item-content">
+							<img src="./assets/icons/calendar.svg" alt="calendar" class="home-steps__item-img" />
+							<div class="home-steps__item-descr home-steps__item-descr_calendar">Мы напомним вам о сессии за сутки и за час до начала</div>
+							<img src="./assets/icons/spot-small.svg" alt="small spot" class="home-steps__item-spot home-steps__item-spot_small" />
+						</div>
+						<form action="./pages/rates.html" target="_blank">
+							<button class="button button_big">Сделать первый шаг</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="home-questions">
+			<div class="container">
+				<h2 class="title">Вопросы - ответы</h2>
+				<div class="questions__wrapper">
+					<div class="questions__item">
+						<div class="questions__text">
+							<p class="questions__ask">Эффективно ли работать с психологом онлайн?</p>
+							<p class="questions__answer">
+								Да, эффективно и уже является стандартной практикой во всем мире. За последние годы было проведено много научных исследований, доказывающих, что данный формат не
+								уступает по эффективности традиционной очной психотерапии.
+							</p>
+						</div>
+						<div class="questions__sign">
+							<img src="./assets/icons/plus.svg" alt="plus" class="questions__plus" />
+							<img src="./assets/icons/minus.svg" alt="minus" class="questions__minus" />
+						</div>
+					</div>
+					<div class="questions__item">
+						<div class="questions__text">
+							<p class="questions__ask">Как выбрать специалиста?</p>
+							<p class="questions__answer">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia veritatis obcaecati cupiditate doloribus praesentium fugiat, ad vitae iure eos. Architecto officiis
+								veniam dolorem ad, exercitationem ullam necessitatibus doloribus magnam quibusdam!
+							</p>
+						</div>
+						<div class="questions__sign">
+							<img src="./assets/icons/plus.svg" alt="plus" class="questions__plus" />
+							<img src="./assets/icons/minus.svg" alt="minus" class="questions__minus" />
+						</div>
+					</div>
+					<div class="questions__item">
+						<div class="questions__text">
+							<p class="questions__ask">
+								Чувствую, что мне нужна помощь, но не понимаю в чём проблема. <br />
+								Как быть?
+							</p>
+							<p class="questions__answer">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia veritatis obcaecati cupiditate doloribus praesentium fugiat, ad vitae iure eos. Architecto officiis
+								veniam dolorem ad, exercitationem ullam necessitatibus doloribus magnam quibusdam!
+							</p>
+						</div>
+						<div class="questions__sign">
+							<img src="./assets/icons/plus.svg" alt="plus" class="questions__plus" />
+							<img src="./assets/icons/minus.svg" alt="minus" class="questions__minus" />
+						</div>
+					</div>
+					<div class="questions__item">
+						<div class="questions__text">
+							<p class="questions__ask">Как вы отбираете психологов в базу?</p>
+							<p class="questions__answer">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia veritatis obcaecati cupiditate doloribus praesentium fugiat, ad vitae iure eos. Architecto officiis
+								veniam dolorem ad, exercitationem ullam necessitatibus doloribus magnam quibusdam!
+							</p>
+						</div>
+						<div class="questions__sign">
+							<img src="./assets/icons/plus.svg" alt="plus" class="questions__plus" />
+							<img src="./assets/icons/minus.svg" alt="minus" class="questions__minus" />
+						</div>
+					</div>
+					<div class="questions__item">
+						<div class="questions__text">
+							<p class="questions__ask">В чем разница между психологом, психотерапевтом и психиатром и как понять кто мне нужен?</p>
+							<p class="questions__answer">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia veritatis obcaecati cupiditate doloribus praesentium fugiat, ad vitae iure eos. Architecto officiis
+								veniam dolorem ad, exercitationem ullam necessitatibus doloribus magnam quibusdam!
+							</p>
+						</div>
+						<div class="questions__sign">
+							<img src="./assets/icons/plus.svg" alt="plus" class="questions__plus" />
+							<img src="./assets/icons/minus.svg" alt="minus" class="questions__minus" />
+						</div>
+					</div>
+					<div class="questions__item">
+						<div class="questions__text">
+							<p class="questions__ask">Какое количество сессий мне необходимо, чтобы получить результат?</p>
+							<p class="questions__answer">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia veritatis obcaecati cupiditate doloribus praesentium fugiat, ad vitae iure eos. Architecto officiis
+								veniam dolorem ad, exercitationem ullam necessitatibus doloribus magnam quibusdam!
+							</p>
+						</div>
+						<div class="questions__sign">
+							<img src="./assets/icons/plus.svg" alt="plus" class="questions__plus" />
+							<img src="./assets/icons/minus.svg" alt="minus" class="questions__minus" />
+						</div>
+					</div>
+					<button class="button button_questions">Больше вопросов</button>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<div class="footer__contacts">
+						<a href="./index.html" target="_blank" class="footer__logo"><img src="./assets/icons/logo.svg" alt="YouMi's logo" class="footer__logo-img" /></a>
+						<div class="footer__socials">
+							<a href="https://vk.com" target="_blank" class="footer__socials-logo"><img src="./assets/icons/vk.svg" alt="vk logo" /></a>
+							<a href="https://telegram.org/" target="_blank" class="footer__socials-logo"><img src="./assets/icons/telegram.svg" alt="telegram logo" /></a>
+							<a href="https://dzen.ru" target="_blank" class="footer__socials-logo"><img src="./assets/icons/dzen.svg" alt="dzen logo" /></a>
+						</div>
+					</div>
+					<div class="footer__connection">
+						<div>
+							<p class="footer__connection-title">Сотрудничество</p>
+							<p class="footer__connection-subtitle">@youmiwork</p>
+						</div>
+						<div>
+							<p class="footer__connection-title">Поддержка клиентов</p>
+							<p class="footer__connection-subtitle">@youmi</p>
+						</div>
+					</div>
+					<nav class="footer__nav">
+						<ul class="footer__menu">
+							<li><a href="./pages/about.html" target="_blank" class="footer__link">О нас</a></li>
+							<li><a href="./pages/psychologists.html" target="_blank" class="footer__link">Психологам</a></li>
+							<li><a href="./pages/rates.html" target="_blank" class="footer__link">Тарифы</a></li>
+							<li><a href="./pages/contacts.html" target="_blank" class="footer__link">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="footer__policy">
+						<a href="#" class="footer__policy-item">Обработка персональных данных</a>
+						<a href="#" class="footer__policy-item">Пользовательское соглашение</a>
+						<a href="#" class="footer__policy-item">Юридические документы</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="./assets/js/index.js"></script>
+	</body>
+</html>
